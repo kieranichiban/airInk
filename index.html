@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" 
+rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="hero">
+                <div class="heroContent">
+                    <h1>AIR-INK</h1>
+                    <h2>The worlds first ink made out of car pollution.</h2>
+                </div>
+            </div>
+            <nav class="navbar">
+                <div class="logo">AIR-INK®</div>
+                <ul class="nav-buttons">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="#">Mission</a></li>
+                  <li><a href="process.html">Process</a></li>
+                </ul>
+              </nav>
+
+        </header>
+        <main>
+            <section class="process">
+                <img src="img/process.png" alt="">
+                <div class="processInfo">
+                    <p>While at the MIT Media Lab, we asked ourselves a simple question. How can we  turn something as ugly as air pollution into something as useful as ink?<br><br>
+
+                        <p>That’s how we came up with <b>AIR-INK</b>. <br>Want to learn how it's done?</p>
+                   <button><a href="process.html">Check it out</a></button>
+
+                </div>
+            </section>
+            <section class="video">
+                <h3>
+                    Our Story
+                </h3>
+                <iframe width="100%" height="900px" src="https://www.youtube.com/embed/evQ8_x0GP1k?si=t409WpEa0djs0cSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <button><a href="process.html">Learn more</a></button>
+            </section>
+
+            <section class="Shop">
+                <h3>Featured Products</h3>
+                <div class="shopItems">
+                    <div class="card">
+                        <img src="" alt="">
+                        <div class="cardInfo">
+                            <h4>0.7mm Marker</h4>
+                            <p>$25.00 USD</p>
+                        </div>
+                        <button> Add to cart</button>
+
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <div class="cardInfo">
+                            <h4>1.00mm Marker</h4>
+                            <p>$55.00 USD</p>
+                        </div>
+                        <button> Add to cart</button>
+
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <div class="cardInfo">
+                            <h4>2.00mm Marker</h4>
+                            <p>$65.00 USD</p>
+                        </div>
+                        <button> Add to cart</button>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <div class="cardInfo">
+                            <h4>1.00mm Marker</h4>
+                            <p>$55.00 USD</p>
+                        </div>
+                        <button> Add to cart</button>
+
+                    </div>
+                </div>
+                <button class="btn">View more</button>
+            </section>
+        </main>
+        <footer>
+            <div class="foot-main left">
+                <p><b>AIR-INK®</b> has kickstarted a public art movement  
+                    spanning cities as diverse as Hong Kong, London, New York, 
+                    Mumbai,  Berlin, Singapore, Delhi and many more.
+                </p>
+            </div>
+            <div class="foot-main left">
+                <h4>Get in touch</h4>
+                <p>1234 inkway dr, Denver CO 80205</p>
+                <p>info@airink.com</p>
+                <p>303-666-420</p>
+            </div>
+            <div class="foot-main left">
+                <h4>Company</h4>
+                <p>Service</p>
+                <p>Features</p>
+                <p>Our team</p>
+                <P>Portfolio</P>
+                <p>Blog</p>
+            </div>
+            <div class="foot-main left">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+
+        </footer>
+       
+    
+    </body>
+    <script>window.addEventListener('scroll', function() {
+        const navbar = document.querySelector('.navbar');
+        const hero = document.querySelector('.hero');
+        
+        if (window.scrollY >= hero.offsetHeight) {
+          navbar.classList.add('sticky');
+        } else {
+          navbar.classList.remove('sticky');
+        }
+      });</script>
+</html>
